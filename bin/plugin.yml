@@ -1,0 +1,10 @@
+name: Underworld
+main: com.undergroundminer.remdul.underworld.UnderworldGen
+version: 1.0
+authors: [remdul]
+website: 
+description: The Underworld Generator.
+load: STARTUP
+commands:
+softdepend:
+permissions:

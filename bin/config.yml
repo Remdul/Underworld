@@ -1,0 +1,40 @@
+#Frequency for ruin spawns(This it out of 300).
+#For example, if you put 200/300, there would be a 2/3 chance of spawning a ruin in each chunk.
+ruin-frequency: 20
+ruins-enabled: true
+
+#Is glowstone enabled?
+glowstone-enabled: true
+
+#Are ores enabled?
+ores-enabled: true
+
+#trees forests
+trees-enabled: true
+
+#the chance out of 100 that a tree will spawn when the chunk gens.
+trees-spawn-chance: 75
+min-trees-per-chunk: 0
+max-trees-per-chunk: 7
+
+#Don't screw with this section unless you know what your doing.
+scale: 35.0
+threshold: 0.0
+
+#Ruin chests & blaze spawners
+#This is the chance out of 100 that a blaze spawner will spawn with the ruins
+blaze-spawner-chance: 10
+chest-spawn-chance: 45
+max-itemtypes-per-chest: 3
+
+#Possible items to be held in the chests.
+#Format is as follows: itemid,amount,rarity %. Note, this can go past 100%.
+items:
+ - 348,20,5
+ - 89,5,5
+ - 377,5,5
+ - 378,2,5
+ - 112,20,20
+ - 1,64,70
+ - 260,5,50
+ - 406,10,75
